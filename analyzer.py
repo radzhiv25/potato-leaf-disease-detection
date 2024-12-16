@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 
 # Set up the Streamlit app title
-st.title("Plant Leaf Disease Detection")
+st.title("Potato Leaf Analyzer")
 
 # Load the trained model
 model = load_model("analyzer.h5")
